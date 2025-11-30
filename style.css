@@ -1,0 +1,84 @@
+body {
+   font-family: Arial, sans-serif;
+   line-height: 1.6;
+   color: #333;
+   background: #f9f9f9;
+}
+
+header {
+    background-color: #3366ff;
+    color: #ffffff;
+    padding: 1em;
+    text-align: center;
+}
+
+.cours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 5%;
+
+}
+.text{
+    width: 500px;
+}
+.boutton{
+    color: white;
+    background-color: #3366ff;
+    padding: 20px;
+}
+
+.cours .card {
+    margin: 1em;
+    padding: 40px;
+    border: 1px solid #ddd;
+    background-color: #3366ff;
+    color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.paragraphe{
+    font-size: 14px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 100%;
+}
+.images{
+    display: flex;
+    gap: 10px;
+}
+form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin: 50px;
+}
+
+label {display: block;}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color :#3366ff;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #3366ff;
+}
